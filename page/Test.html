@@ -1,25 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
+
+  .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Header Header Header"
+    "Text Text Img"
+    "Galery Galery Galery";
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+.Header { grid-area: Header; }
 
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
+.Text { grid-area: Text; }
 
-/* Create two columns/boxes that floats next to each other */
+.Img { grid-area: Img; }
+
+.Galery { grid-area: Galery; }
+
+<div class="container">
+  <div class="Header"></div>
+  <div class="Text"></div>
+  <div class="Img"></div>
+  <div class="Galery"></div>
+</div>
