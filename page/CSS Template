@@ -1,0 +1,83 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://xombala.w3spaces.com/saved-from-Tryit-2021-11-30.html
+Subject: CSS Template
+Date: Tue, 30 Nov 2021 15:27:58 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--ElaNjgqWGJVl0U9PNz0WyNA3YZg1m7yn9ZsE4cMt0U----"
+
+
+------MultipartBoundary--ElaNjgqWGJVl0U9PNz0WyNA3YZg1m7yn9ZsE4cMt0U----
+Content-Type: text/html
+Content-ID: <frame-1132C0D2CF275D3E386A0CBC971AD6E9@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://xombala.w3spaces.com/saved-from-Tryit-2021-11-30.html
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-9495d68e-a4e9-495c-ae53-409fb3da96e7@mhtml.blink" />
+<title>CSS Template</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://xombala.w3spaces.com/saved-from-Tryit-2021-11-30.html#">London</a></li>
+      <li><a href="https://xombala.w3spaces.com/saved-from-Tryit-2021-11-30.html#">Paris</a></li>
+      <li><a href="https://xombala.w3spaces.com/saved-from-Tryit-2021-11-30.html#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+
+
+
+</body></html>
+------MultipartBoundary--ElaNjgqWGJVl0U9PNz0WyNA3YZg1m7yn9ZsE4cMt0U----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-9495d68e-a4e9-495c-ae53-409fb3da96e7@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+header { background-color: rgb(102, 102, 102); padding: 30px; text-align: center; font-size: 35px; color: white; }
+
+nav { float: left; width: 30%; height: 300px; background: rgb(204, 204, 204); padding: 20px; }
+
+nav ul { list-style-type: none; padding: 0px; }
+
+article { float: left; padding: 20px; width: 70%; background-color: rgb(241, 241, 241); height: 300px; }
+
+section::after { content: ""; display: table; clear: both; }
+
+footer { background-color: rgb(119, 119, 119); padding: 10px; text-align: center; color: white; }
+
+@media (max-width: 600px) {
+  nav, article { width: 100%; height: auto; }
+}
+------MultipartBoundary--ElaNjgqWGJVl0U9PNz0WyNA3YZg1m7yn9ZsE4cMt0U------
